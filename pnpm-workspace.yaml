@@ -1,0 +1,22 @@
+onlyBuiltDependencies:
+  - esbuild
+  - sharp
+  - workerd
+
+minimumReleaseAge: 1440
+minimumReleaseAgeExclude:
+  - react
+  - react-dom
+  - three
+  - '@react-three/*'
+  - '@fontsource/*'
+  - postprocessing
+  - typescript
+  - vite
+  - '@vitejs/plugin-react'
+  - '@types/*'
+  - zustand
+allowBuilds:
+  esbuild: true
+  sharp: true
+  workerd: true

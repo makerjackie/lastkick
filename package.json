@@ -1,0 +1,43 @@
+{
+  "name": "lastkick",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "homepage": "https://lastkick.01mvp.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/makerjackie/lastkick.git"
+  },
+  "type": "module",
+  "packageManager": "pnpm@11.7.0",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "test:difficulty": "node scripts/verify-shot-difficulty.mjs",
+    "deploy:dry-run": "pnpm build && wrangler deploy --dry-run",
+    "deploy": "pnpm build && wrangler deploy"
+  },
+  "dependencies": {
+    "@fontsource-variable/teko": "^5.2.7",
+    "@fontsource/ibm-plex-mono": "^5.2.7",
+    "@react-three/fiber": "^9.6.1",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "three": "^0.185.1",
+    "zustand": "^5.0.14"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.0",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@types/three": "^0.185.0",
+    "@vitejs/plugin-react": "^6.0.1",
+    "typescript": "^5.9.3",
+    "vite": "^8.1.4",
+    "wrangler": "4.108.0"
+  }
+}

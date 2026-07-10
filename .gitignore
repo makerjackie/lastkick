@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+
+# Build and deployment output
+dist/
+output/
+.wrangler/
+*.tsbuildinfo
+PROTOTYPE_NOTES.md
+
+# Internal recording experiments are intentionally not part of the public
+# source release. The published project keeps only deterministic game checks.
+scripts/record-v3-demo.mjs
+scripts/record-v4-demo.mjs
+scripts/render-demo-audio.mjs
+scripts/render-v3-demo-audio.mjs
+scripts/render-v4-demo-audio.mjs
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Logs and coverage
+*.log
+coverage/
+
+# Editors and operating systems
+.DS_Store
+.idea/
+.vscode/
