@@ -4,6 +4,8 @@
 
 [在线试玩](https://lastkick.01mvp.com) · [完整免费案例：如何用 GPT-5.6 把它做出来](https://01mvp.com/docs/cases/last-kick-gpt56)
 
+[![Last Kick：世界杯第 120 分钟的三脚挑战](public/case/intro.webp)](https://lastkick.01mvp.com)
+
 > AI 只参与开发过程。游戏上线后不接入 AI，也不依赖任何运行时业务 API；场景、规则、音效和分享图都在浏览器本地运行。
 
 ## 为什么做这个项目
